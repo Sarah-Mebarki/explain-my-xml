@@ -1,0 +1,111 @@
+{
+  "topic": {
+    "summary": "A top-level DITA topic (a self-contained chunk of content).",
+    "tips": [
+      "Keep topics focused: one purpose per topic.",
+      "Use <title> as the human-facing heading."
+    ]
+  },
+  "title": {
+    "summary": "A title (usually the visible heading for a topic/section).",
+    "tips": [
+      "Write it like a heading: short, specific, noun-first if possible."
+    ]
+  },
+  "shortdesc": {
+    "summary": "A short description that summarizes the topic for previews/search results.",
+    "tips": [
+      "Aim for 1\u20132 sentences. It's not a second introduction."
+    ]
+  },
+  "body": {
+    "summary": "The main content container of a topic.",
+    "tips": [
+      "Use sections/lists/steps for structure instead of long paragraphs."
+    ]
+  },
+  "p": {
+    "summary": "A paragraph of text.",
+    "tips": [
+      "Prefer short paragraphs. If it has multiple ideas, split it."
+    ]
+  },
+  "section": {
+    "summary": "A logical section inside a topic.",
+    "tips": [
+      "Give sections a <title> when readers need navigation."
+    ]
+  },
+  "ul": {
+    "summary": "An unordered list.",
+    "tips": [
+      "Keep list items parallel (same grammatical form)."
+    ]
+  },
+  "ol": {
+    "summary": "An ordered (numbered) list.",
+    "tips": [
+      "Use when sequence matters; otherwise use <ul>."
+    ]
+  },
+  "li": {
+    "summary": "A list item.",
+    "tips": [
+      "One main idea per list item; avoid walls of text."
+    ]
+  },
+  "steps": {
+    "summary": "A container for a procedure (step-by-step instructions).",
+    "tips": [
+      "Each step should be a single action the user can do."
+    ]
+  },
+  "step": {
+    "summary": "One step in a procedure.",
+    "tips": [
+      "Start with an imperative verb: 'Select', 'Enter', 'Connect'."
+    ]
+  },
+  "cmd": {
+    "summary": "The command/action within a DITA step.",
+    "tips": [
+      "Keep it short; put explanations in <info> or following text."
+    ]
+  },
+  "info": {
+    "summary": "Extra information that supports a step (context, explanation).",
+    "tips": [
+      "Use for 'why' or constraints, not extra actions."
+    ]
+  },
+  "xref": {
+    "summary": "A cross-reference (link) to another topic or location.",
+    "tips": [
+      "Use meaningful link text; avoid 'click here'."
+    ]
+  },
+  "codeblock": {
+    "summary": "A block of code or terminal output.",
+    "tips": [
+      "Preserve spacing. Mention expected output if it matters."
+    ]
+  },
+  "note": {
+    "summary": "A callout (note, warning, tip, etc.).",
+    "tips": [
+      "Use warnings sparingly; they lose impact if overused."
+    ]
+  },
+  "fig": {
+    "summary": "A figure container (image/diagram) with optional title/desc.",
+    "tips": [
+      "Add alt-like text via <desc> so it's accessible."
+    ]
+  },
+  "image": {
+    "summary": "An image reference (points to a file).",
+    "tips": [
+      "Ensure the image has a clear purpose and caption/description if needed."
+    ]
+  }
+}
