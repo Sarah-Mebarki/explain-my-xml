@@ -28,7 +28,7 @@ jobs:
           cache: npm
 
       - name: Install
-        run: npm ci
+        run: npm install
 
       # IMPORTANT for GitHub Pages: set base path to repo name
       - name: Build
